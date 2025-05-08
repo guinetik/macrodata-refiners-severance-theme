@@ -1,0 +1,204 @@
+{
+  "name": "Cold Harbor",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F0F5F9",
+    "editor.foreground": "#2C3E50",
+    "editorLineNumber.foreground": "#8CA3B8",
+    "editorCursor.foreground": "#3778C0",
+    "editor.selectionBackground": "#D6E5F3",
+    "editor.lineHighlightBackground": "#E4EDF7",
+    "activityBar.background": "#E6EEF5",
+    "sideBar.background": "#EBF2F8",
+    "sideBar.foreground": "#2C3E50",
+    "statusBar.background": "#DCE8F2",
+    "tab.activeBackground": "#F0F5F9",
+    "tab.inactiveBackground": "#E6EEF5",
+    "titleBar.activeBackground": "#E4ECF5",
+    "titleBar.inactiveBackground": "#ECF2F8",
+    "panel.background": "#EDF3F9",
+    "terminal.background": "#F0F5F9",
+    "terminal.foreground": "#2C3E50",
+    "terminal.ansiBlack": "#2C3E50",
+    "terminal.ansiBlue": "#3778C0",
+    "terminal.ansiCyan": "#2BBBD8",
+    "terminal.ansiGreen": "#26A69A",
+    "terminal.ansiMagenta": "#9575CD",
+    "terminal.ansiRed": "#E74C3C",
+    "terminal.ansiWhite": "#F0F5F9",
+    "terminal.ansiYellow": "#F39C12",
+    
+    "textLink.foreground": "#3778C0",
+    "textLink.activeForeground": "#2C67A9",
+    "editorLink.activeForeground": "#2C67A9",
+    "editorIndentGuide.background": "#D6E1ED",
+    "editorIndentGuide.activeBackground": "#B5C9DB",
+    "editorGutter.background": "#F0F5F9",
+    "editorWidget.background": "#E8F0F8",
+    "editorWidget.border": "#C4D4E3",
+    "list.activeSelectionBackground": "#D6E5F3",
+    "list.hoverBackground": "#E4EDF7",
+    "list.inactiveSelectionBackground": "#E0EAF5",
+    "list.highlightForeground": "#2C67A9",
+    "button.background": "#3778C0",
+    "button.hoverBackground": "#2C67A9",
+    "button.foreground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#8CA3B8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#3778C0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["storage"],
+      "settings": {
+        "foreground": "#2C67A9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#2BBBD8"
+      }
+    },
+    {
+      "scope": ["variable", "variable.parameter", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#2C3E50" 
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#3778C0"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#2C67A9"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.numeric.integer", "constant.numeric.float", "constant.numeric.hex", "constant.numeric.octal", "constant.numeric.binary", "constant.numeric.decimal"],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#16A5A5"
+      }
+    },
+    {
+      "scope": "text",
+      "settings": {
+        "foreground": "#2C3E50"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.parameters", "punctuation.definition.block", "punctuation.definition.bracket"],
+      "settings": {
+        "foreground": "#5D6D7E"
+      }
+    },
+    {
+      "scope": ["punctuation.separator", "punctuation.terminator", "meta.brace", "meta.delimiter"],
+      "settings": {
+        "foreground": "#4A5764"
+      }
+    },
+    {
+      "scope": ["keyword.operator", "keyword.operator.arithmetic", "keyword.operator.logical", "keyword.operator.assignment"],
+      "settings": {
+        "foreground": "#16A085"
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#E74C3C"
+      }
+    },
+    {
+      "scope": ["source.powershell keyword.control.powershell"],
+      "settings": {
+        "foreground": "#3778C0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["source.powershell support.function.powershell"],
+      "settings": {
+        "foreground": "#3778C0"
+      }
+    },
+    {
+      "scope": ["source.powershell support.commandname.powershell", "source.powershell entity.name.function.powershell"],
+      "settings": {
+        "foreground": "#2C67A9"
+      }
+    },
+    {
+      "scope": ["source.powershell variable.other", "source.powershell variable", "source.powershell punctuation.definition.variable.powershell"],
+      "settings": {
+        "foreground": "#9575CD"
+      }
+    },
+    {
+      "scope": ["source.powershell variable.parameter.powershell"],
+      "settings": {
+        "foreground": "#7E57C2"
+      }
+    },
+    {
+      "scope": ["source.powershell punctuation.section.bracket.begin.powershell", "source.powershell punctuation.section.bracket.end.powershell", "source.powershell punctuation.section.braces.begin.powershell", "source.powershell punctuation.section.braces.end.powershell", "source.powershell punctuation.section.group.begin.powershell", "source.powershell punctuation.section.group.end.powershell"],
+      "settings": {
+        "foreground": "#5D6D7E"
+      }
+    },
+    {
+      "scope": ["source.powershell keyword.operator.comparison.powershell", "source.powershell keyword.operator.logical.powershell"],
+      "settings": {
+        "foreground": "#16A085"
+      }
+    },
+    {
+      "scope": ["source.powershell constant.numeric", "source.powershell constant.numeric.integer.powershell", "source.powershell constant.numeric.hexadecimal.powershell", "source.powershell constant.numeric.octal.powershell"],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": ["source.powershell string.quoted.single.powershell", "source.powershell string.quoted.double.powershell"],
+      "settings": {
+        "foreground": "#2BBBD8"
+      }
+    },
+    {
+      "scope": ["source.powershell support.type.powershell", "source.powershell entity.name.type.powershell"],
+      "settings": {
+        "foreground": "#2C67A9"
+      }
+    },
+    {
+      "scope": ["source.powershell keyword.operator.assignment.powershell"],
+      "settings": {
+        "foreground": "#16A085"
+      }
+    }
+  ]
+}

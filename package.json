@@ -1,0 +1,41 @@
+{
+  "name": "macrodata-refiners-severance-theme",
+  "displayName": "Macrodata Refiners Severance Theme",
+  "description": "Vibe Refining",
+  "version": "0.0.1",
+  "publisher": "guinetik",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guinetik/macrodata-refiners-severance-theme"
+  },
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Macrodata Refiners - Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/macrodata-refiners.json"
+      },
+      {
+        "label": "Macrodata Refiners - ORTBO",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ortbo.json"
+      },
+      {
+        "label": "Macrodata Refiners - Cold Harbor",
+        "uiTheme": "vs",
+        "path": "./themes/cold-harbor.json"
+      },
+      {
+        "label": "Macrodata Refiners - Sweet Vitriol",
+        "uiTheme": "vs",
+        "path": "./themes/sweet-vitriol.json"
+      }
+    ]
+  }
+}

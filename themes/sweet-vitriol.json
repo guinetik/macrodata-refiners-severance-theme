@@ -1,0 +1,313 @@
+{
+  "name": "Macrodata Refiners - Sweet Vitriol",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F5F2ED",
+    "editor.foreground": "#3A4A54",
+    "editorLineNumber.foreground": "#849AA6",
+    "editorCursor.foreground": "#2D6D62",
+    "editor.selectionBackground": "#D5E0E5",
+    "editor.lineHighlightBackground": "#EAE5DD",
+    "activityBar.background": "#E9E4DC",
+    "sideBar.background": "#F0EDE7",
+    "sideBar.foreground": "#3A4A54",
+    "statusBar.background": "#E6E0D7",
+    "statusBar.foreground": "#3A4A54",
+    "statusBar.border": "#D5CFC5",
+    "statusBar.noFolderBackground": "#E6E0D7",
+    "statusBar.noFolderForeground": "#3A4A54",
+    "statusBar.debuggingBackground": "#A26769",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBarItem.activeBackground": "#D5CFC5",
+    "statusBarItem.hoverBackground": "#C8C2B8",
+    "statusBarItem.prominentBackground": "#DAE3E8",
+    "statusBarItem.prominentHoverBackground": "#C8D5DF",
+    "tab.activeBackground": "#F5F2ED",
+    "tab.inactiveBackground": "#EAE5DD",
+    "tab.activeBorder": "#2D6D62",
+    "tab.unfocusedActiveBorder": "#597B72",
+    "tab.hoverBackground": "#EDE8E0",
+    "tab.unfocusedHoverBackground": "#E9E4DC",
+    "titleBar.activeBackground": "#E8E2D9",
+    "titleBar.inactiveBackground": "#EDE8E0",
+    "panel.background": "#F2EEE8",
+    "terminal.background": "#F5F2ED",
+    "terminal.foreground": "#3A4A54",
+    "terminal.ansiBlack": "#3A4A54",
+    "terminal.ansiBlue": "#3B7B95",
+    "terminal.ansiCyan": "#2A7D78",
+    "terminal.ansiGreen": "#2D6D62",
+    "terminal.ansiMagenta": "#866C89",
+    "terminal.ansiRed": "#A26769",
+    "terminal.ansiWhite": "#F5F2ED",
+    "terminal.ansiYellow": "#B08D57",
+    
+    "textLink.foreground": "#2D6D62",
+    "textLink.activeForeground": "#1F5E54",
+    "editorLink.activeForeground": "#1F5E54",
+    "editorIndentGuide.background": "#D9D4CB",
+    "editorIndentGuide.activeBackground": "#C8C2B8",
+    "editorGutter.background": "#F5F2ED",
+    "editorWidget.background": "#EDE8DF",
+    "editorWidget.border": "#D5CFC5",
+    "list.activeSelectionBackground": "#DAE3E8",
+    "list.hoverBackground": "#EBE6DE",
+    "list.inactiveSelectionBackground": "#E5DFD6",
+    "list.highlightForeground": "#2D6D62",
+    "button.background": "#2D6D62",
+    "button.hoverBackground": "#1F5E54",
+    "button.foreground": "#FFFFFF",
+    
+    // Bracket highlighting colors - using cottage palette
+    "editorBracketHighlight.foreground1": "#2A7D78", // Ether teal
+    "editorBracketHighlight.foreground2": "#3B7B95", // Blue (curtains)
+    "editorBracketHighlight.foreground3": "#866C89", // Purple (accent)
+    "editorBracketHighlight.foreground4": "#B08D57", // Wood tone
+    "editorBracketHighlight.foreground5": "#617986", // Steel blue-gray
+    "editorBracketHighlight.foreground6": "#3A4A54", // Dark text color
+    "editorBracketHighlight.unexpectedBracket.foreground": "#A26769" // Red (error)
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#9AA7AD",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#2A7D78", // Ether teal for keywords
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#2D6D62", // Green for storage types
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#A26769" // Red for strings
+      }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#3A4A54" // Default text color for variables
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#7C6380" // Purple for parameters
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#266258" // Green function
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#1F5E54" // Green type
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.numeric.integer", "constant.numeric.float", "constant.numeric.hex", "constant.numeric.octal", "constant.numeric.binary", "constant.numeric.decimal"],
+      "settings": {
+        "foreground": "#B08D57" // Wood brown for numbers
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for constants
+      }
+    },
+    {
+      "scope": "text",
+      "settings": {
+        "foreground": "#3A4A54"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.parameters",
+        "punctuation.definition.block",
+        "punctuation.definition.bracket",
+        "punctuation.definition.dictionary",
+        "punctuation.definition.array",
+        "punctuation.section.brackets",
+        "meta.brace.round",
+        "meta.brace.square",
+        "meta.brace.curly"
+      ],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for brackets
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator",
+        "punctuation.terminator",
+        "meta.brace",
+        "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#2D6D62" // Green for punctuation
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.arithmetic",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#3B7B95" // Blue for operators
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.assignment"
+      ],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for assignment
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#A26769"
+      }
+    },
+    {
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#2A7D78", // Ether teal for this, self
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#3B7B95" // Blue for properties
+      }
+    },
+    {
+      "scope": ["variable.other.object.property"],
+      "settings": {
+        "foreground": "#3B7B95" // Blue for object properties
+      }
+    },
+    {
+      "scope": ["support.function"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for support functions
+      }
+    },
+    {
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for tags
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#A26769" // Red for string delimiters
+      }
+    },
+    {
+      "scope": ["meta.template.expression"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for template expressions
+      }
+    },
+    {
+      "scope": ["support.constant"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for support constants
+      }
+    },
+    // PowerShell specific token colors
+    {
+      "scope": ["source.powershell keyword.control.powershell"],
+      "settings": {
+        "foreground": "#2A7D78", // Ether teal for PowerShell keywords
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["source.powershell support.function.powershell"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for PowerShell functions
+      }
+    },
+    {
+      "scope": ["source.powershell support.commandname.powershell", "source.powershell entity.name.function.powershell"],
+      "settings": {
+        "foreground": "#2D6D62" // Green for PowerShell commands
+      }
+    },
+    {
+      "scope": ["source.powershell variable.other", "source.powershell variable", "source.powershell punctuation.definition.variable.powershell"],
+      "settings": {
+        "foreground": "#7C6380" // Purple for PowerShell variables
+      }
+    },
+    {
+      "scope": ["source.powershell variable.parameter.powershell"],
+      "settings": {
+        "foreground": "#775A7A" // Darker purple for PowerShell parameters
+      }
+    },
+    {
+      "scope": ["source.powershell punctuation.section.bracket.begin.powershell", "source.powershell punctuation.section.bracket.end.powershell", "source.powershell punctuation.section.braces.begin.powershell", "source.powershell punctuation.section.braces.end.powershell", "source.powershell punctuation.section.group.begin.powershell", "source.powershell punctuation.section.group.end.powershell"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for PowerShell brackets
+      }
+    },
+    {
+      "scope": ["source.powershell keyword.operator.comparison.powershell", "source.powershell keyword.operator.logical.powershell"],
+      "settings": {
+        "foreground": "#3B7B95" // Blue for PowerShell operators
+      }
+    },
+    {
+      "scope": ["source.powershell constant.numeric", "source.powershell constant.numeric.integer.powershell", "source.powershell constant.numeric.hexadecimal.powershell", "source.powershell constant.numeric.octal.powershell"],
+      "settings": {
+        "foreground": "#B08D57" // Wood brown for PowerShell numbers
+      }
+    },
+    {
+      "scope": ["source.powershell string.quoted.single.powershell", "source.powershell string.quoted.double.powershell"],
+      "settings": {
+        "foreground": "#A26769" // Red for PowerShell strings
+      }
+    },
+    {
+      "scope": ["source.powershell support.type.powershell", "source.powershell entity.name.type.powershell"],
+      "settings": {
+        "foreground": "#1F5E54" // Green for PowerShell types
+      }
+    },
+    {
+      "scope": ["source.powershell keyword.operator.assignment.powershell"],
+      "settings": {
+        "foreground": "#2A7D78" // Ether teal for PowerShell assignment
+      }
+    }
+  ]
+}
