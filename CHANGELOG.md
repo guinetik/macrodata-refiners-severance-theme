@@ -1,9 +1,19 @@
 # Change Log
+## 0.0.4
 
-All notable changes to the "macrodata-refiners-severance-theme" extension will be documented in this file.
+### 🖌️ Various
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- 2025-05-14 | Lowered vscode version to 1.0.0
 
-## [Unreleased]
 
-- Initial release
+## 0.0.3
+
+### 🖌️ Various
+
+- 2025-05-08 | Updates version, created LICENSE
+- 2025-05-08 | Creating repo
+
+
+
+---
+Changelog as of 5/14/2025.

@@ -2,14 +2,15 @@
   "name": "macrodata-refiners-severance-theme",
   "displayName": "Macrodata Refiners Severance Theme",
   "description": "Vibe Refining",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "icon": "icon.png",
   "publisher": "guinetik",
   "repository": {
     "type": "git",
     "url": "https://github.com/guinetik/macrodata-refiners-severance-theme"
   },
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Themes"
