@@ -2,3 +2,28 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+
+# Screenshots and reference images (served via CDN)
+screenshots/**
+inspo/**
+*.jpg
+*.jpeg
+*.gif
+*.avif
+# Note: icon.png is NOT excluded - it's needed for the extension
+
+# Source files (not needed in package)
+src/**
+build.js
+encode-images.js
+extract_colors.py
+extract_colors_advanced.py
+
+# Development files
+BUILD_SYSTEM.md
+node_modules/**
+package-lock.json
+
+# Git files
+.git/**
+.gitignore
