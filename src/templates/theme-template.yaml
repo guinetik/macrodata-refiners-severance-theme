@@ -1,0 +1,507 @@
+# VS Code Theme Template
+# This template defines the structure of the theme
+# Color references like {color.editor_background} will be replaced with actual values
+
+vscode_colors:
+  # Editor
+  "editor.background": "{color.editor_background}"
+  "editor.foreground": "{color.editor_foreground}"
+  "editorLineNumber.foreground": "{color.editor_line_number}"
+  "editorLineNumber.activeForeground": "{color.editor_line_number_active}"
+  "editorCursor.foreground": "{color.editor_cursor}"
+  "editor.selectionBackground": "{color.editor_selection}AA"
+  "editor.inactiveSelectionBackground": "{color.editor_selection}55"
+  "editor.lineHighlightBackground": "{color.editor_line_highlight}"
+  "editor.lineHighlightBorder": "{color.editor_line_highlight}00"
+  "editorIndentGuide.background": "{palette.teal_darkest}"
+  "editorIndentGuide.activeBackground": "{palette.teal_darker}"
+  "editorGutter.background": "{palette.bg_darkest}"
+  "editorWhitespace.foreground": "{palette.teal_darkest}80"
+
+  # Editor Widget (autocomplete, hover, etc.)
+  "editorWidget.background": "{palette.bg_medium}"
+  "editorWidget.border": "{palette.cyan_dark}"
+  "editorWidget.foreground": "{color.editor_foreground}"
+  "editorSuggestWidget.background": "{palette.bg_medium}"
+  "editorSuggestWidget.border": "{palette.cyan_dark}"
+  "editorSuggestWidget.selectedBackground": "{color.list_selection}"
+  "editorHoverWidget.background": "{palette.bg_medium}"
+  "editorHoverWidget.border": "{palette.cyan_dark}"
+
+  # Activity Bar
+  "activityBar.background": "{color.activity_bar_background}"
+  "activityBar.foreground": "{color.activity_bar_foreground}"
+  "activityBar.inactiveForeground": "{palette.green_muted}"
+  "activityBar.border": "{color.activity_bar_border}"
+  "activityBarBadge.background": "{palette.cyan_bright}"
+  "activityBarBadge.foreground": "{palette.bg_darkest}"
+
+  # Sidebar
+  "sideBar.background": "{color.sidebar_background}"
+  "sideBar.foreground": "{color.sidebar_foreground}"
+  "sideBar.border": "{color.sidebar_border}"
+  "sideBarTitle.foreground": "{palette.cyan_bright}"
+  "sideBarSectionHeader.background": "{palette.bg_dark}"
+  "sideBarSectionHeader.foreground": "{palette.cyan_medium}"
+
+  # Status Bar
+  "statusBar.background": "{color.statusbar_background}"
+  "statusBar.foreground": "{color.statusbar_foreground}"
+  "statusBar.border": "{color.statusbar_border}"
+  "statusBar.noFolderBackground": "{color.statusbar_background}"
+  "statusBar.noFolderForeground": "{color.statusbar_foreground}"
+  "statusBar.debuggingBackground": "{palette.red}"
+  "statusBar.debuggingForeground": "{palette.white}"
+  "statusBarItem.activeBackground": "{palette.teal_medium}"
+  "statusBarItem.hoverBackground": "{palette.teal_dark}"
+  "statusBarItem.prominentBackground": "{palette.teal_medium}"
+  "statusBarItem.prominentHoverBackground": "{palette.teal_dark}"
+
+  # Tabs
+  "tab.activeBackground": "{color.tab_active_background}"
+  "tab.activeForeground": "{color.tab_active_foreground}"
+  "tab.inactiveBackground": "{color.tab_inactive_background}"
+  "tab.inactiveForeground": "{color.tab_inactive_foreground}"
+  "tab.border": "{palette.bg_darkest}"
+  "tab.activeBorder": "{palette.cyan_bright}"
+  "tab.activeBorderTop": "{palette.cyan_bright}"
+  "tab.unfocusedActiveBorder": "{palette.teal_dark}"
+
+  # Editor Group (Tab Bar Background)
+  "editorGroupHeader.tabsBackground": "{palette.bg_darker}"
+  "editorGroupHeader.tabsBorder": "{palette.teal_darkest}"
+  "editorGroupHeader.noTabsBackground": "{palette.bg_darker}"
+
+  # Title Bar
+  "titleBar.activeBackground": "{color.titlebar_background}"
+  "titleBar.activeForeground": "{color.titlebar_foreground}"
+  "titleBar.inactiveBackground": "{palette.bg_darkest}"
+  "titleBar.inactiveForeground": "{palette.gray_medium}"
+  "titleBar.border": "{palette.teal_darkest}"
+
+  # Panel (terminal, output, etc.)
+  "panel.background": "{color.terminal_background}"
+  "panel.border": "{palette.teal_darker}"
+  "panelTitle.activeBorder": "{palette.cyan_bright}"
+  "panelTitle.activeForeground": "{palette.cyan_bright}"
+  "panelTitle.inactiveForeground": "{palette.gray_medium}"
+
+  # Terminal
+  "terminal.background": "{color.terminal_background}"
+  "terminal.foreground": "{color.terminal_foreground}"
+  "terminal.ansiBlack": "{palette.black}"
+  "terminal.ansiRed": "{palette.red}"
+  "terminal.ansiGreen": "{palette.green_bright}"
+  "terminal.ansiYellow": "{palette.yellow}"
+  "terminal.ansiBlue": "{palette.cyan_medium}"
+  "terminal.ansiMagenta": "{palette.magenta}"
+  "terminal.ansiCyan": "{palette.cyan_bright}"
+  "terminal.ansiWhite": "{palette.white}"
+  "terminal.ansiBrightBlack": "{palette.gray_dark}"
+  "terminal.ansiBrightRed": "{palette.red}"
+  "terminal.ansiBrightGreen": "{palette.green_brighter}"
+  "terminal.ansiBrightYellow": "{palette.yellow}"
+  "terminal.ansiBrightBlue": "{palette.cyan_bright}"
+  "terminal.ansiBrightMagenta": "{palette.magenta}"
+  "terminal.ansiBrightCyan": "{palette.cyan_brighter}"
+  "terminal.ansiBrightWhite": "{palette.white}"
+
+  # Links
+  "textLink.foreground": "{color.link}"
+  "textLink.activeForeground": "{color.link_active}"
+  "editorLink.activeForeground": "{color.link_active}"
+
+  # Buttons
+  "button.background": "{color.button_background}"
+  "button.foreground": "{color.button_foreground}"
+  "button.hoverBackground": "{color.button_hover}"
+
+  # Lists
+  "list.activeSelectionBackground": "{color.list_selection}"
+  "list.activeSelectionForeground": "{palette.cyan_brightest}"
+  "list.inactiveSelectionBackground": "{palette.teal_dark}"
+  "list.inactiveSelectionForeground": "{palette.green_brighter}"
+  "list.hoverBackground": "{color.list_hover}"
+  "list.hoverForeground": "{palette.green_brighter}"
+  "list.highlightForeground": "{color.list_highlight}"
+  "list.focusBackground": "{color.list_selection}"
+  "list.focusForeground": "{palette.cyan_brightest}"
+
+  # Bracket highlighting
+  "editorBracketHighlight.foreground1": "{palette.cyan_bright}"
+  "editorBracketHighlight.foreground2": "{palette.green_bright}"
+  "editorBracketHighlight.foreground3": "{palette.cyan_brighter}"
+  "editorBracketHighlight.foreground4": "{palette.yellow}"
+  "editorBracketHighlight.foreground5": "{palette.magenta}"
+  "editorBracketHighlight.foreground6": "{palette.white}"
+  "editorBracketHighlight.unexpectedBracket.foreground": "{palette.red}"
+
+  # Scrollbar
+  "scrollbarSlider.background": "{palette.teal_dark}80"
+  "scrollbarSlider.hoverBackground": "{palette.teal_medium}AA"
+  "scrollbarSlider.activeBackground": "{palette.cyan_dark}CC"
+
+  # Input
+  "input.background": "{palette.bg_medium}"
+  "input.border": "{palette.teal_darker}"
+  "input.foreground": "{palette.green_primary}"
+  "input.placeholderForeground": "{palette.gray_medium}"
+
+  # Dropdown
+  "dropdown.background": "{palette.bg_medium}"
+  "dropdown.border": "{palette.teal_darker}"
+  "dropdown.foreground": "{palette.green_primary}"
+
+  # Notifications
+  "notificationCenter.border": "{palette.cyan_dark}"
+  "notificationCenterHeader.background": "{palette.bg_dark}"
+  "notifications.background": "{palette.bg_medium}"
+  "notifications.border": "{palette.cyan_dark}"
+  "notifications.foreground": "{palette.green_primary}"
+
+  # Diff Editor
+  "diffEditor.insertedTextBackground": "{palette.green_bright}20"
+  "diffEditor.removedTextBackground": "{palette.red}20"
+
+  # Git decorations
+  "gitDecoration.modifiedResourceForeground": "{palette.yellow}"
+  "gitDecoration.deletedResourceForeground": "{palette.red}"
+  "gitDecoration.untrackedResourceForeground": "{palette.green_bright}"
+  "gitDecoration.ignoredResourceForeground": "{palette.gray_medium}"
+  "gitDecoration.conflictingResourceForeground": "{palette.orange}"
+
+# Token Colors - Comprehensive language support
+token_colors:
+  # Comments
+  - scope: ["comment", "punctuation.definition.comment"]
+    token: "comment"
+
+  # Documentation
+  - scope: ["comment.block.documentation"]
+    foreground: "{palette.gray_light}"
+    fontStyle: "italic"
+
+  # Keywords
+  - scope:
+      - "keyword"
+      - "keyword.control"
+      - "keyword.control.flow"
+      - "keyword.control.import"
+      - "keyword.control.export"
+      - "keyword.control.default"
+      - "keyword.control.conditional"
+      - "keyword.control.loop"
+      - "keyword.other"
+    token: "keyword"
+
+  # Storage (var, let, const, function, class, etc.)
+  - scope:
+      - "storage"
+      - "storage.type"
+      - "storage.modifier"
+    token: "storage"
+
+  # Strings
+  - scope:
+      - "string"
+      - "string.quoted"
+      - "string.template"
+    token: "string"
+
+  # String interpolation
+  - scope:
+      - "string.quoted.double punctuation.definition.string"
+      - "string.quoted.single punctuation.definition.string"
+      - "string.template punctuation.definition.string"
+    token: "string"
+
+  # String escape sequences
+  - scope:
+      - "constant.character.escape"
+      - "string constant.character.escape"
+    token: "string_escape"
+
+  # Template literals
+  - scope:
+      - "punctuation.definition.template-expression"
+      - "meta.template.expression"
+    foreground: "{palette.cyan_brighter}"
+
+  # Numbers
+  - scope:
+      - "constant.numeric"
+      - "constant.language.numeric"
+    token: "number"
+
+  # Booleans and null
+  - scope:
+      - "constant.language.boolean"
+      - "constant.language.null"
+      - "constant.language.undefined"
+    token: "constant"
+
+  # Constants
+  - scope:
+      - "constant"
+      - "constant.other"
+      - "variable.other.constant"
+    token: "constant"
+
+  # Variables
+  - scope:
+      - "variable"
+      - "variable.other"
+      - "variable.other.readwrite"
+      - "variable.other.object"
+    token: "variable"
+
+  # Variable properties
+  - scope:
+      - "variable.other.property"
+      - "variable.other.member"
+      - "meta.object.member"
+      - "support.variable.property"
+    token: "variable_property"
+
+  # Language variables (this, self, super, etc.)
+  - scope:
+      - "variable.language"
+      - "variable.language.this"
+      - "variable.language.super"
+    token: "variable_language"
+
+  # Function definitions
+  - scope:
+      - "entity.name.function"
+      - "meta.function-call entity.name.function"
+      - "support.function"
+    token: "function"
+
+  # Function calls
+  - scope:
+      - "meta.function-call"
+      - "variable.function"
+    token: "function_call"
+
+  # Method calls
+  - scope:
+      - "meta.method-call entity.name.function"
+      - "entity.name.method"
+    token: "function"
+
+  # Classes
+  - scope:
+      - "entity.name.class"
+      - "entity.name.type.class"
+      - "support.class"
+    token: "class"
+
+  # Types
+  - scope:
+      - "entity.name.type"
+      - "support.type"
+      - "storage.type.primitive"
+      - "storage.type.built-in"
+    token: "type"
+
+  # Interfaces
+  - scope:
+      - "entity.name.type.interface"
+      - "entity.other.inherited-class"
+    token: "interface"
+
+  # Enums
+  - scope:
+      - "entity.name.type.enum"
+    token: "enum"
+
+  # Parameters
+  - scope:
+      - "variable.parameter"
+      - "meta.function.parameters variable"
+      - "meta.parameters variable"
+    token: "parameter"
+
+  # Operators
+  - scope:
+      - "keyword.operator"
+      - "keyword.operator.arithmetic"
+      - "keyword.operator.logical"
+      - "keyword.operator.comparison"
+      - "keyword.operator.relational"
+      - "keyword.operator.bitwise"
+    token: "operator"
+
+  # Assignment operators
+  - scope:
+      - "keyword.operator.assignment"
+    foreground: "{palette.cyan_bright}"
+
+  # Punctuation - brackets, braces, parens
+  - scope:
+      - "punctuation.definition.parameters"
+      - "punctuation.definition.block"
+      - "punctuation.definition.bracket"
+      - "punctuation.definition.dictionary"
+      - "punctuation.definition.array"
+      - "punctuation.section.brackets"
+      - "punctuation.section.braces"
+      - "punctuation.section.parens"
+      - "meta.brace.round"
+      - "meta.brace.square"
+      - "meta.brace.curly"
+    token: "punctuation"
+
+  # Separators and terminators
+  - scope:
+      - "punctuation.separator"
+      - "punctuation.terminator"
+      - "punctuation.separator.comma"
+      - "punctuation.separator.period"
+      - "meta.delimiter"
+    token: "punctuation_separator"
+
+  # HTML/XML Tags
+  - scope:
+      - "entity.name.tag"
+      - "meta.tag"
+    token: "tag"
+
+  # HTML/XML Tag attributes
+  - scope:
+      - "entity.other.attribute-name"
+      - "meta.tag entity.other.attribute-name"
+    token: "tag_attribute"
+
+  # Object properties
+  - scope:
+      - "meta.object-literal.key"
+      - "meta.object.member"
+      - "support.type.property-name"
+    token: "property"
+
+  # Attributes and decorators
+  - scope:
+      - "entity.name.function.decorator"
+      - "meta.decorator"
+      - "punctuation.decorator"
+    token: "decorator"
+
+  # Annotations
+  - scope:
+      - "storage.type.annotation"
+      - "punctuation.definition.annotation"
+    token: "annotation"
+
+  # Namespaces and modules
+  - scope:
+      - "entity.name.namespace"
+      - "entity.name.module"
+      - "support.other.namespace"
+    token: "namespace"
+
+  # Labels
+  - scope:
+      - "entity.name.label"
+    token: "label"
+
+  # Regular expressions
+  - scope:
+      - "string.regexp"
+      - "constant.character.regexp"
+    token: "regex"
+
+  # CSS selectors
+  - scope:
+      - "entity.name.tag.css"
+      - "entity.other.attribute-name.class.css"
+      - "entity.other.attribute-name.id.css"
+    foreground: "{palette.cyan_bright}"
+
+  # CSS properties
+  - scope:
+      - "support.type.property-name.css"
+    token: "property"
+
+  # CSS values
+  - scope:
+      - "support.constant.property-value.css"
+      - "constant.other.color.css"
+    token: "constant"
+
+  # JSON keys
+  - scope:
+      - "support.type.property-name.json"
+      - "meta.structure.dictionary.key.json string.quoted"
+    token: "property"
+
+  # Markdown headings
+  - scope:
+      - "markup.heading"
+      - "entity.name.section.markdown"
+    token: "markup_heading"
+
+  # Markdown bold
+  - scope:
+      - "markup.bold"
+    token: "markup_bold"
+
+  # Markdown italic
+  - scope:
+      - "markup.italic"
+    token: "markup_italic"
+
+  # Markdown links
+  - scope:
+      - "markup.underline.link"
+      - "string.other.link.markdown"
+    token: "markup_link"
+
+  # Markdown code
+  - scope:
+      - "markup.inline.raw"
+      - "markup.fenced_code"
+    token: "markup_code"
+
+  # Python: self parameter
+  - scope:
+      - "variable.language.special.self.python"
+      - "variable.parameter.function.language.special.self.python"
+    token: "variable_language"
+
+  # Python: decorators
+  - scope:
+      - "entity.name.function.decorator.python"
+    token: "decorator"
+
+  # Python: magic methods
+  - scope:
+      - "support.function.magic.python"
+    foreground: "{palette.magenta}"
+
+  # JavaScript/TypeScript: import/export
+  - scope:
+      - "variable.other.readwrite.alias"
+      - "meta.import variable.other"
+      - "meta.export variable.other"
+    token: "variable"
+
+  # TypeScript: type parameters
+  - scope:
+      - "entity.name.type.parameter"
+    foreground: "{palette.cyan_medium}"
+    fontStyle: "italic"
+
+  # React: JSX tags
+  - scope:
+      - "entity.name.tag.tsx"
+      - "entity.name.tag.jsx"
+      - "support.class.component.tsx"
+      - "support.class.component.jsx"
+    token: "class"
+
+  # Invalid/Error
+  - scope:
+      - "invalid"
+      - "invalid.illegal"
+    token: "invalid"

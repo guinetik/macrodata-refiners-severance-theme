@@ -1,0 +1,231 @@
+name: "Macrodata Refiners - Cold Harbor"
+type: "dark"
+description: "Dark theme inspired by Lumon's data visualization screens with graduated cyan shades"
+
+# Dark blue palette inspired by Cold Harbor data charts
+palette:
+  # Backgrounds - Extremely dark with deep blue tint
+  bg_darkest: "#020508"      # Almost pure black with blue hint
+  bg_darker: "#030609"       # Slightly lighter pure black
+  bg_dark: "#05080d"         # Very dark background
+  bg_medium: "#070a10"       # Dark background
+  bg_light: "#0a0d13"        # Lighter background for contrast
+
+  # Dark blue borders
+  border_darkest: "#0f1a22"
+  border_dark: "#14202a"
+  border_medium: "#1a2832"
+
+  # Graduated cyan shades - from the Cold Harbor chart
+  cyan_darkest: "#024e69"    # Darkest cyan/blue
+  cyan_dark: "#0a5f7a"       # Dark cyan
+  cyan_medium: "#2ec2e0"     # Medium bright cyan
+  cyan_bright: "#5dd9f0"     # Bright cyan
+  cyan_brighter: "#8fe9f4"   # Very bright cyan
+  cyan_brightest: "#c0f5fa"  # Almost white cyan
+
+  # Blue tones
+  blue_dark: "#1a3a50"
+  blue_medium: "#2a5a80"
+  blue_bright: "#4a8ab0"
+
+  # Grays
+  gray_darkest: "#252a2f"
+  gray_dark: "#353a3f"
+  gray_medium: "#4a5158"
+  gray_light: "#6a7580"
+  gray_lighter: "#8a95a0"
+  gray_text: "#aab5c0"
+  gray_bright: "#c0cad5"
+
+  # Accent colors
+  yellow: "#d0b580"
+  magenta: "#b070a0"
+  red: "#e85050"
+  orange: "#e08060"
+  green: "#60b090"
+
+  # Pure colors
+  white: "#e8e8e8"
+  black: "#000000"
+
+  # Aliases for template compatibility
+  teal_darkest: "#0f1a22"
+  teal_darker: "#14202a"
+  teal_dark: "#1a2832"
+  teal_medium: "#1a3a50"
+  green_muted: "#252a2f"
+  green_primary: "#2ec2e0"
+  green_bright: "#5dd9f0"
+  green_brighter: "#8fe9f4"
+  green_light: "#70b5d0"
+  green_medium: "#4a5158"
+
+# Semantic color mappings
+colors:
+  # Editor
+  editor_background: "bg_darkest"
+  editor_foreground: "gray_text"
+  editor_line_highlight: "bg_dark"
+  editor_selection: "border_medium"
+  editor_cursor: "cyan_brightest"
+  editor_line_number: "gray_medium"
+  editor_line_number_active: "cyan_bright"
+
+  # Activity Bar
+  activity_bar_background: "bg_darkest"
+  activity_bar_foreground: "gray_text"
+  activity_bar_border: "border_darkest"
+
+  # Sidebar
+  sidebar_background: "bg_darker"
+  sidebar_foreground: "gray_text"
+  sidebar_border: "border_darkest"
+
+  # Status Bar
+  statusbar_background: "bg_darker"
+  statusbar_foreground: "cyan_medium"
+  statusbar_border: "cyan_darkest"
+
+  # Tabs
+  tab_active_background: "bg_dark"
+  tab_active_foreground: "cyan_bright"
+  tab_inactive_background: "bg_darkest"
+  tab_inactive_foreground: "gray_medium"
+
+  # Title Bar
+  titlebar_background: "bg_darker"
+  titlebar_foreground: "gray_text"
+
+  # Terminal
+  terminal_background: "bg_darkest"
+  terminal_foreground: "gray_text"
+
+  # Buttons and interactive elements
+  button_background: "cyan_dark"
+  button_foreground: "cyan_brightest"
+  button_hover: "cyan_medium"
+
+  # Links
+  link: "cyan_bright"
+  link_active: "cyan_brighter"
+
+  # Lists
+  list_selection: "border_medium"
+  list_hover: "border_dark"
+  list_highlight: "cyan_bright"
+
+# Token/syntax colors
+tokens:
+  comment:
+    foreground: "gray_medium"
+    fontStyle: "italic"
+
+  keyword:
+    foreground: "cyan_bright"
+    fontStyle: "bold"
+
+  storage:
+    foreground: "cyan_dark"
+    fontStyle: "bold"
+
+  string:
+    foreground: "cyan_medium"
+
+  string_escape:
+    foreground: "cyan_bright"
+
+  number:
+    foreground: "cyan_brighter"
+
+  constant:
+    foreground: "cyan_bright"
+
+  variable:
+    foreground: "gray_bright"
+
+  variable_property:
+    foreground: "gray_text"
+
+  variable_language:
+    foreground: "cyan_brightest"
+    fontStyle: "bold"
+
+  function:
+    foreground: "cyan_brighter"
+
+  function_call:
+    foreground: "cyan_bright"
+
+  class:
+    foreground: "cyan_dark"
+    fontStyle: "bold"
+
+  type:
+    foreground: "cyan_dark"
+
+  interface:
+    foreground: "cyan_medium"
+
+  enum:
+    foreground: "cyan_dark"
+
+  parameter:
+    foreground: "gray_bright"
+    fontStyle: "italic"
+
+  operator:
+    foreground: "cyan_medium"
+
+  punctuation:
+    foreground: "gray_light"
+
+  punctuation_separator:
+    foreground: "gray_light"
+
+  tag:
+    foreground: "cyan_bright"
+
+  tag_attribute:
+    foreground: "cyan_medium"
+
+  attribute:
+    foreground: "cyan_medium"
+
+  property:
+    foreground: "gray_text"
+
+  decorator:
+    foreground: "cyan_medium"
+
+  annotation:
+    foreground: "cyan_medium"
+
+  namespace:
+    foreground: "cyan_dark"
+
+  label:
+    foreground: "cyan_bright"
+
+  regex:
+    foreground: "orange"
+
+  markup_heading:
+    foreground: "cyan_bright"
+    fontStyle: "bold"
+
+  markup_bold:
+    fontStyle: "bold"
+
+  markup_italic:
+    fontStyle: "italic"
+
+  markup_link:
+    foreground: "cyan_bright"
+
+  markup_code:
+    foreground: "cyan_medium"
+
+  invalid:
+    foreground: "black"
+    background: "red"

@@ -1,0 +1,246 @@
+name: "Macrodata Refiners - ORTBO"
+type: "light"
+description: "Bright, stark theme inspired by the snowy outdoor testing grounds"
+
+# Light palette inspired by cold, bright snow-covered landscapes
+palette:
+  # Backgrounds - Very light with subtle blue tint
+  bg_lightest: "#f8fafb"     # Almost white
+  bg_lighter: "#f4f7f9"      # Very light blue-gray
+  bg_light: "#eff3f6"        # Light background
+  bg_medium: "#e8ecf0"       # Medium light
+  bg_dark: "#dfe4e8"         # Darker for contrast
+
+  # Borders and subtle elements
+  border_lightest: "#d8dee3"
+  border_light: "#cdd4db"
+  border_medium: "#b8c2cc"
+  border_dark: "#9aa5b0"
+
+  # Blues - from snow shadows and sky
+  blue_lightest: "#e5eef5"
+  blue_light: "#ccdee8"
+  blue_medium: "#5a8bb0"
+  blue_dark: "#3d6d8f"
+  blue_darker: "#2a4d6b"
+  blue_darkest: "#1c3448"
+
+  # Cyans - from ice and reflections
+  cyan_light: "#70b5d0"
+  cyan_medium: "#4a9ec0"
+  cyan_dark: "#2d8ab0"
+  cyan_darker: "#1d6a90"
+
+  # Grays - for text and subtle elements
+  gray_lightest: "#f0f2f4"
+  gray_lighter: "#d5dce3"
+  gray_light: "#9aa8b5"
+  gray_medium: "#7a8a98"
+  gray_dark: "#5a6a78"
+  gray_darker: "#3a4a58"
+  gray_darkest: "#2a3a48"
+
+  # Text colors
+  text_primary: "#2a3a48"
+  text_secondary: "#3a4a58"
+  text_muted: "#5a6a78"
+
+  # Accent colors
+  teal: "#3d8ba0"
+  yellow: "#c0a560"
+  magenta: "#9a70a0"
+  red: "#c05050"
+  orange: "#c08050"
+  green: "#508a70"
+
+  # Pure colors
+  white: "#ffffff"
+  black: "#000000"
+
+  # Aliases for template compatibility
+  teal_darkest: "#1c3448"
+  teal_darker: "#2a4d6b"
+  teal_dark: "#3d6d8f"
+  teal_medium: "#5a8bb0"
+  green_muted: "#7a8a98"
+  green_primary: "#508a70"
+  green_bright: "#508a70"
+  green_brighter: "#508a70"
+  green_light: "#508a70"
+  green_medium: "#9aa8b5"
+  cyan_bright: "#4a9ec0"
+  cyan_brighter: "#70b5d0"
+  cyan_brightest: "#70b5d0"
+  gray_text: "#3a4a58"
+  gray_bright: "#5a6a78"
+  bg_darkest: "#f8fafb"
+  bg_darker: "#f4f7f9"
+
+# Semantic color mappings
+colors:
+  # Editor
+  editor_background: "bg_lightest"
+  editor_foreground: "text_primary"
+  editor_line_highlight: "bg_light"
+  editor_selection: "blue_lightest"
+  editor_cursor: "cyan_dark"
+  editor_line_number: "gray_light"
+  editor_line_number_active: "cyan_medium"
+
+  # Activity Bar
+  activity_bar_background: "bg_lighter"
+  activity_bar_foreground: "text_primary"
+  activity_bar_border: "border_lightest"
+
+  # Sidebar
+  sidebar_background: "bg_lighter"
+  sidebar_foreground: "text_primary"
+  sidebar_border: "border_lightest"
+
+  # Status Bar
+  statusbar_background: "bg_lighter"
+  statusbar_foreground: "cyan_medium"
+  statusbar_border: "border_light"
+
+  # Tabs
+  tab_active_background: "bg_lightest"
+  tab_active_foreground: "cyan_dark"
+  tab_inactive_background: "bg_medium"
+  tab_inactive_foreground: "text_muted"
+
+  # Title Bar
+  titlebar_background: "bg_lighter"
+  titlebar_foreground: "text_primary"
+
+  # Terminal
+  terminal_background: "bg_lightest"
+  terminal_foreground: "text_primary"
+
+  # Buttons and interactive elements
+  button_background: "cyan_medium"
+  button_foreground: "white"
+  button_hover: "cyan_dark"
+
+  # Links
+  link: "cyan_medium"
+  link_active: "cyan_dark"
+
+  # Lists
+  list_selection: "blue_lightest"
+  list_hover: "bg_light"
+  list_highlight: "cyan_medium"
+
+# Token/syntax colors
+tokens:
+  comment:
+    foreground: "gray_light"
+    fontStyle: "italic"
+
+  keyword:
+    foreground: "blue_dark"
+    fontStyle: "bold"
+
+  storage:
+    foreground: "blue_darker"
+    fontStyle: "bold"
+
+  string:
+    foreground: "green"
+
+  string_escape:
+    foreground: "cyan_medium"
+
+  number:
+    foreground: "yellow"
+
+  constant:
+    foreground: "cyan_dark"
+
+  variable:
+    foreground: "text_secondary"
+
+  variable_property:
+    foreground: "text_primary"
+
+  variable_language:
+    foreground: "blue_dark"
+    fontStyle: "bold"
+
+  function:
+    foreground: "cyan_medium"
+
+  function_call:
+    foreground: "cyan_dark"
+
+  class:
+    foreground: "blue_darker"
+    fontStyle: "bold"
+
+  type:
+    foreground: "blue_darker"
+
+  interface:
+    foreground: "cyan_dark"
+
+  enum:
+    foreground: "blue_darker"
+
+  parameter:
+    foreground: "text_secondary"
+    fontStyle: "italic"
+
+  operator:
+    foreground: "cyan_dark"
+
+  punctuation:
+    foreground: "gray_medium"
+
+  punctuation_separator:
+    foreground: "gray_medium"
+
+  tag:
+    foreground: "blue_dark"
+
+  tag_attribute:
+    foreground: "cyan_medium"
+
+  attribute:
+    foreground: "cyan_medium"
+
+  property:
+    foreground: "text_primary"
+
+  decorator:
+    foreground: "cyan_medium"
+
+  annotation:
+    foreground: "cyan_medium"
+
+  namespace:
+    foreground: "blue_darker"
+
+  label:
+    foreground: "blue_dark"
+
+  regex:
+    foreground: "orange"
+
+  markup_heading:
+    foreground: "blue_dark"
+    fontStyle: "bold"
+
+  markup_bold:
+    fontStyle: "bold"
+
+  markup_italic:
+    fontStyle: "italic"
+
+  markup_link:
+    foreground: "cyan_medium"
+
+  markup_code:
+    foreground: "green"
+
+  invalid:
+    foreground: "white"
+    background: "red"

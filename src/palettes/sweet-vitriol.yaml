@@ -1,0 +1,233 @@
+name: "Macrodata Refiners - Sweet Vitriol"
+type: "light"
+description: "Warm cream theme with teal, blue, and wood tones inspired by Ms. Cobel's cottage"
+
+# Warm light color palette with cream, teal, and wood tones
+palette:
+  # Backgrounds - Warm creams and beiges
+  bg_lightest: "#f5f2ed"
+  bg_lighter: "#f0ede7"
+  bg_light: "#f2eee8"
+  bg_medium: "#ede8df"
+  bg_dark: "#e9e4dc"
+  bg_darker: "#eae5dd"
+
+  # Warm neutrals
+  cream_light: "#e6e0d7"
+  cream_medium: "#d9d4cb"
+  cream_dark: "#d5cfc5"
+  cream_darker: "#c8c2b8"
+
+  # Teals and greens
+  teal_dark: "#1f5e54"
+  teal_medium: "#2d6d62"
+  teal_light: "#2a7d78"
+  teal_lighter: "#3a8d82"
+  teal_muted: "#597b72"
+
+  # Blues
+  blue_medium: "#3b7b95"
+  blue_light: "#4a8aa5"
+  blue_muted: "#617986"
+
+  # Foreground and text
+  text_primary: "#3a4a54"
+  text_secondary: "#4a5a64"
+  text_muted: "#849aa6"
+
+  # Wood and warm tones
+  wood: "#b08d57"
+  wood_light: "#c09d67"
+  wood_dark: "#a07d47"
+
+  # Purple accents
+  purple: "#866c89"
+  purple_light: "#967c99"
+
+  # Accent colors
+  cyan: "#4a9d98"
+  blue_accent: "#5a8daa"
+  yellow: "#c0a060"
+  red: "#a26769"
+
+  # Pure colors
+  white: "#ffffff"
+  black: "#3a4a54"
+
+  # Aliases for template compatibility
+  teal_darkest: "#c8c2b8"
+  teal_darker: "#d5cfc5"
+  green_muted: "#849aa6"
+  green_primary: "#3a4a54"
+  green_bright: "#b08d57"
+  green_brighter: "#c09d67"
+  cyan_dark: "#1f5e54"
+  cyan_medium: "#2a7d78"
+  cyan_bright: "#2d6d62"
+  cyan_brighter: "#3a8d82"
+  cyan_brightest: "#4a9d98"
+  gray_dark: "#4a5a64"
+  gray_medium: "#849aa6"
+  gray_light: "#849aa6"
+  orange: "#c0a060"
+  bg_darkest: "#f5f2ed"
+  magenta: "#866c89"
+
+# Semantic color mappings
+colors:
+  editor_background: "bg_lightest"
+  editor_foreground: "text_primary"
+  editor_line_highlight: "bg_darker"
+  editor_selection: "cream_medium"
+  editor_cursor: "teal_medium"
+  editor_line_number: "text_muted"
+  editor_line_number_active: "teal_medium"
+
+  activity_bar_background: "bg_dark"
+  activity_bar_foreground: "text_primary"
+  activity_bar_border: "cream_dark"
+
+  sidebar_background: "bg_lighter"
+  sidebar_foreground: "text_primary"
+  sidebar_border: "cream_dark"
+
+  statusbar_background: "cream_light"
+  statusbar_foreground: "text_primary"
+  statusbar_border: "cream_dark"
+
+  tab_active_background: "bg_lightest"
+  tab_active_foreground: "text_primary"
+  tab_inactive_background: "bg_darker"
+  tab_inactive_foreground: "text_muted"
+
+  titlebar_background: "cream_light"
+  titlebar_foreground: "text_primary"
+
+  terminal_background: "bg_lightest"
+  terminal_foreground: "text_primary"
+
+  button_background: "teal_medium"
+  button_foreground: "white"
+  button_hover: "teal_dark"
+
+  link: "teal_medium"
+  link_active: "teal_dark"
+
+  list_selection: "cream_medium"
+  list_hover: "bg_darker"
+  list_highlight: "teal_medium"
+
+# Token colors
+tokens:
+  comment:
+    foreground: "text_muted"
+    fontStyle: "italic"
+
+  keyword:
+    foreground: "teal_medium"
+    fontStyle: "bold"
+
+  storage:
+    foreground: "teal_dark"
+    fontStyle: "bold"
+
+  string:
+    foreground: "wood"
+
+  string_escape:
+    foreground: "teal_light"
+
+  number:
+    foreground: "yellow"
+
+  constant:
+    foreground: "teal_medium"
+
+  variable:
+    foreground: "text_primary"
+
+  variable_property:
+    foreground: "text_secondary"
+
+  variable_language:
+    foreground: "teal_medium"
+    fontStyle: "bold"
+
+  function:
+    foreground: "teal_medium"
+
+  function_call:
+    foreground: "teal_dark"
+
+  class:
+    foreground: "blue_medium"
+    fontStyle: "bold"
+
+  type:
+    foreground: "blue_medium"
+
+  interface:
+    foreground: "blue_light"
+
+  enum:
+    foreground: "blue_medium"
+
+  parameter:
+    foreground: "text_secondary"
+    fontStyle: "italic"
+
+  operator:
+    foreground: "teal_muted"
+
+  punctuation:
+    foreground: "text_secondary"
+
+  punctuation_separator:
+    foreground: "text_muted"
+
+  tag:
+    foreground: "teal_medium"
+
+  tag_attribute:
+    foreground: "cyan"
+
+  attribute:
+    foreground: "cyan"
+
+  property:
+    foreground: "text_secondary"
+
+  decorator:
+    foreground: "purple"
+
+  annotation:
+    foreground: "purple"
+
+  namespace:
+    foreground: "blue_medium"
+
+  label:
+    foreground: "teal_medium"
+
+  regex:
+    foreground: "wood_dark"
+
+  markup_heading:
+    foreground: "teal_medium"
+    fontStyle: "bold"
+
+  markup_bold:
+    fontStyle: "bold"
+
+  markup_italic:
+    fontStyle: "italic"
+
+  markup_link:
+    foreground: "teal_medium"
+
+  markup_code:
+    foreground: "wood"
+
+  invalid:
+    foreground: "white"
+    background: "red"

@@ -1,0 +1,231 @@
+name: "Macrodata Refiners - Classic"
+type: "dark"
+description: "Sleek, elegant theme inspired by the Lumon MDR terminal screens"
+
+# Color palette inspired by the Lumon terminal - CLEAN TECHNOLOGICAL AESTHETIC
+palette:
+  # Backgrounds - VERY dark, almost black with subtle blue-green tint
+  bg_darkest: "#04090d"      # Nearly black background (from image)
+  bg_darker: "#050a0e"       # Slightly lighter black
+  bg_dark: "#0a0f13"         # Dark background
+  bg_medium: "#0a1318"       # Medium dark background
+  bg_light: "#0d1620"        # Lighter background for contrast
+
+  # Dark teals - For UI elements and dividers (more muted, less cyan)
+  teal_darkest: "#0f1c22"    # Very dark teal for subtle elements
+  teal_darker: "#142630"     # Dark teal for borders
+  teal_dark: "#1a3038"       # Dark teal for inactive elements
+  teal_medium: "#203a42"     # Medium teal for hover states
+
+  # Muted greens - For secondary text (darker, more muted)
+  green_muted: "#2a3f3a"     # Muted green for line numbers
+  green_medium: "#354a45"    # Medium green for comments
+  green_light: "#405550"     # Light green for secondary text
+
+  # Primary greens - For text (clean, not too saturated)
+  green_primary: "#6aa090"   # Primary green for text
+  green_bright: "#70b0a0"    # Bright green for strings
+  green_brighter: "#80c0b0"  # Brighter green for variables
+
+  # Cyan/Teal accents - From reference screenshots, varied shades
+  cyan_darkest: "#024e69"    # Very dark cyan/blue from screenshot
+  cyan_dark: "#4a8585"       # Dark cyan for types
+  cyan_medium: "#2ec2e0"     # Medium bright cyan from screenshot
+  cyan_muted: "#659595"      # Muted teal for secondary elements
+  cyan_bright: "#00d5d5"     # Bright cyan for keywords - Lumon style!
+  cyan_brighter: "#00e5e5"   # Brighter cyan for important elements
+  cyan_brightest: "#10f5f5"  # Brightest cyan for cursor and active selections
+  cyan_light: "#8fe9f4"      # Light cyan from screenshot - almost white
+
+  # Grays - For inactive elements and subtle text
+  gray_darkest: "#2a3535"    # Darkest gray
+  gray_dark: "#3a4545"       # Dark gray
+  gray_medium: "#4a5555"     # Medium gray for comments
+  gray_light: "#6a7575"      # Light gray
+  gray_lighter: "#8a9595"    # Lighter gray for subtle text
+  gray_text: "#b0b8b8"       # Light gray for default text
+  gray_bright: "#c8d0d0"     # Bright gray for emphasis
+
+  # Beige/Cream - For certain UI elements (inspired by the desks)
+  beige_dark: "#9a8a70"      # Dark beige
+  beige_medium: "#b0a080"    # Medium beige
+  beige_light: "#c0b090"     # Light beige
+
+  # Accent colors
+  yellow: "#d0b580"          # Warm yellow for numbers/constants
+  magenta: "#b070a0"         # Magenta for special elements
+  red: "#e85050"             # Red for errors
+  orange: "#e08060"          # Orange for warnings
+
+  # Pure colors for terminal
+  white: "#e8e8e8"
+  black: "#000000"
+
+# Semantic color mappings
+colors:
+  # Editor
+  editor_background: "bg_darkest"
+  editor_foreground: "gray_text"
+  editor_line_highlight: "bg_dark"
+  editor_selection: "teal_darker"
+  editor_cursor: "cyan_brightest"
+  editor_line_number: "green_muted"
+  editor_line_number_active: "cyan_brighter"
+
+  # Activity Bar
+  activity_bar_background: "bg_darkest"
+  activity_bar_foreground: "gray_text"
+  activity_bar_border: "teal_darkest"
+
+  # Sidebar
+  sidebar_background: "bg_darker"
+  sidebar_foreground: "gray_text"
+  sidebar_border: "teal_darkest"
+
+  # Status Bar
+  statusbar_background: "bg_darker"
+  statusbar_foreground: "gray_text"
+  statusbar_border: "cyan_dark"
+
+  # Tabs
+  tab_active_background: "bg_dark"
+  tab_active_foreground: "cyan_brighter"
+  tab_inactive_background: "bg_darkest"
+  tab_inactive_foreground: "green_medium"
+
+  # Title Bar
+  titlebar_background: "bg_darker"
+  titlebar_foreground: "gray_text"
+
+  # Terminal
+  terminal_background: "bg_darkest"
+  terminal_foreground: "gray_text"
+
+  # Buttons and interactive elements
+  button_background: "teal_medium"
+  button_foreground: "cyan_brighter"
+  button_hover: "teal_dark"
+
+  # Links
+  link: "cyan_brighter"
+  link_active: "cyan_brightest"
+
+  # Lists
+  list_selection: "teal_medium"
+  list_hover: "teal_dark"
+  list_highlight: "cyan_brighter"
+
+# Token/syntax colors
+tokens:
+  comment:
+    foreground: "gray_medium"
+    fontStyle: "italic"
+
+  keyword:
+    foreground: "cyan_bright"
+    fontStyle: "bold"
+
+  storage:
+    foreground: "cyan_dark"
+    fontStyle: "bold"
+
+  string:
+    foreground: "green_bright"
+
+  string_escape:
+    foreground: "cyan_medium"
+
+  number:
+    foreground: "yellow"
+
+  constant:
+    foreground: "cyan_medium"
+
+  variable:
+    foreground: "gray_bright"
+
+  variable_property:
+    foreground: "gray_text"
+
+  variable_language:
+    foreground: "cyan_bright"
+    fontStyle: "bold"
+
+  function:
+    foreground: "cyan_light"
+
+  function_call:
+    foreground: "cyan_medium"
+
+  class:
+    foreground: "cyan_dark"
+    fontStyle: "bold"
+
+  type:
+    foreground: "cyan_dark"
+
+  interface:
+    foreground: "cyan_medium"
+
+  enum:
+    foreground: "cyan_dark"
+
+  parameter:
+    foreground: "gray_bright"
+    fontStyle: "italic"
+
+  operator:
+    foreground: "cyan_muted"
+
+  punctuation:
+    foreground: "gray_light"
+
+  punctuation_separator:
+    foreground: "gray_light"
+
+  tag:
+    foreground: "cyan_bright"
+
+  tag_attribute:
+    foreground: "cyan_medium"
+
+  attribute:
+    foreground: "cyan_medium"
+
+  property:
+    foreground: "gray_text"
+
+  decorator:
+    foreground: "cyan_medium"
+
+  annotation:
+    foreground: "cyan_medium"
+
+  namespace:
+    foreground: "cyan_dark"
+
+  label:
+    foreground: "cyan_bright"
+
+  regex:
+    foreground: "orange"
+
+  markup_heading:
+    foreground: "cyan_bright"
+    fontStyle: "bold"
+
+  markup_bold:
+    fontStyle: "bold"
+
+  markup_italic:
+    fontStyle: "italic"
+
+  markup_link:
+    foreground: "cyan_bright"
+
+  markup_code:
+    foreground: "green_bright"
+
+  invalid:
+    foreground: "black"
+    background: "red"
