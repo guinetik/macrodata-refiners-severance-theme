@@ -180,6 +180,16 @@
     },
     {
       "scope": [
+        "string.quoted.docstring",
+        "comment.block.documentation.python"
+      ],
+      "settings": {
+        "foreground": "#a07d47",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
         "string",
         "string.quoted",
         "string.template"

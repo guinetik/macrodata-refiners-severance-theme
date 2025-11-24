@@ -222,6 +222,7 @@ function main() {
     ['ortbo', 'ORTBO'],
     ['cold-harbor', 'Cold Harbor'],
     ['sweet-vitriol', 'Sweet Vitriol'],
+    ['defiant-jazz', 'Defiant Jazz'],
   ];
 
   for (const [themeSlug, themeName] of themes) {

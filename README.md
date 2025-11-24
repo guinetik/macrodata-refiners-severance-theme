@@ -34,6 +34,13 @@ Inspired by Ms. Cobel's cottage, this light theme balances warm cream background
 ![Reference](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/severance_4.jpg)
 ![Preview](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/04-sweet-vitriol.png)
 
+### Defiant Jazz (dark)
+
+Inspired by the vibrant, rebellious dance scene with dramatic colored lighting. A bold dark theme featuring electric cyans, vivid magentas, bright blues, and warm red-orange accents - capturing the energy and defiance of breaking free from control.
+
+![Reference](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.3/screenshots/severance_5.jpg)
+![Preview](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.3/screenshots/05-defiant-jazz.png)
+
 ## Features
 
 - **Darker, more atmospheric colors** extracted from actual Severance scenes

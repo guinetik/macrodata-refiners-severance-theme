@@ -121,6 +121,10 @@ tokens:
     foreground: "gray_medium"
     fontStyle: "italic"
 
+  docstring:
+    foreground: "gray_light"
+    fontStyle: "italic"
+
   keyword:
     foreground: "cyan_bright"
     fontStyle: "bold"

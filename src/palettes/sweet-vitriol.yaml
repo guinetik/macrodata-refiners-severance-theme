@@ -123,6 +123,10 @@ tokens:
     foreground: "text_muted"
     fontStyle: "italic"
 
+  docstring:
+    foreground: "wood_dark"
+    fontStyle: "italic"
+
   keyword:
     foreground: "teal_medium"
     fontStyle: "bold"

@@ -1,0 +1,286 @@
+name: "Macrodata Refiners - Defiant Jazz"
+type: "dark"
+description: "Vibrant theme inspired by the defiant dance scene with dramatic blue, purple, magenta, and red lighting"
+
+# Color palette inspired by Milchick's dance scene - VIBRANT SATURATED COLORS
+palette:
+  # Backgrounds - Pure black to deep wine/burgundy
+  bg_darkest: "#000000"      # Pure black background
+  bg_darker: "#180010"       # Very dark wine/purple
+  bg_dark: "#2a0020"         # Dark wine/burgundy
+  bg_medium: "#3d0030"       # Medium burgundy
+  bg_light: "#500040"        # Lighter burgundy
+
+  # Deep wine/burgundy - From the darker areas
+  wine_darkest: "#1a0010"    # Very dark wine
+  wine_darker: "#330020"     # Dark wine
+  wine_dark: "#4d0030"       # Wine
+  wine_medium: "#660040"     # Medium wine
+  wine_light: "#800050"      # Light wine
+
+  # VIVID Magentas/Fuchsias - The dominant lighting color
+  magenta_darkest: "#660044" # Darkest magenta
+  magenta_darker: "#880066"  # Dark magenta
+  magenta_dark: "#aa0088"    # Dark magenta
+  magenta_medium: "#cc00aa"  # Medium magenta
+  magenta_bright: "#ff00dd"  # BRIGHT magenta/fuchsia
+  magenta_brighter: "#ff33ee" # Brighter fuchsia
+  magenta_brightest: "#ff66ff" # Brightest fuchsia
+  magenta_light: "#ff99ff"   # Light fuchsia
+
+  # ELECTRIC/ROYAL Blues - From the bright blue panels
+  blue_darkest: "#001a44"    # Very dark blue
+  blue_darker: "#002266"     # Dark royal blue
+  blue_dark: "#0044aa"       # Dark blue
+  blue_medium: "#0066ff"     # Medium electric blue
+  blue_bright: "#0088ff"     # BRIGHT electric blue
+  blue_brighter: "#33aaff"   # Brighter electric blue
+  blue_brightest: "#66ccff"  # Brightest blue
+  blue_light: "#99ddff"      # Light blue
+
+  # VIVID Reds - From the red panels
+  red_darkest: "#330000"     # Very dark red
+  red_darker: "#660000"      # Dark red
+  red_dark: "#990000"        # Dark red
+  red_medium: "#cc0000"      # Medium red
+  red_bright: "#ff0000"      # BRIGHT pure red
+  red_brighter: "#ff3333"    # Brighter red
+  red_brightest: "#ff6666"   # Brightest red
+  red_orange: "#ff4400"      # Red-orange (warmer than pure red)
+  red_orange_bright: "#ff5522" # Bright red-orange
+  red_orange_vivid: "#ff3311" # Vivid red-orange
+
+  # BRIGHT Oranges/Ambers - From the orange panels
+  orange_darkest: "#442200"  # Dark orange
+  orange_dark: "#884400"     # Dark orange
+  orange_medium: "#cc6600"   # Medium orange
+  orange_bright: "#ff8800"   # BRIGHT orange
+  orange_brighter: "#ffaa00" # Brighter amber
+  orange_brightest: "#ffcc00" # Brightest amber/yellow
+
+  # Yellows - Bright accents
+  yellow_dark: "#cc9900"     # Dark yellow
+  yellow: "#ffbb00"          # Yellow
+  yellow_bright: "#ffdd00"   # Bright yellow
+  yellow_brightest: "#ffff00" # Brightest yellow
+
+  # Purples/Violets - For variety
+  purple_darkest: "#220033"  # Very dark purple
+  purple_darker: "#440066"   # Dark purple
+  purple_dark: "#660099"     # Dark violet
+  purple_medium: "#8800cc"   # Medium purple
+  purple_bright: "#aa00ff"   # Bright purple
+  purple_brighter: "#cc33ff" # Brighter purple
+
+  # Cyans/Teals - Bright accent with good contrast
+  cyan_dark: "#008899"       # Dark cyan/teal
+  cyan_medium: "#00bbcc"     # Medium cyan
+  cyan_bright: "#00ddff"     # Bright cyan
+  cyan_brighter: "#33eeff"   # Brighter cyan
+  cyan_brightest: "#66ffff"  # Brightest cyan/aqua
+  cyan_electric: "#00ffee"   # Electric cyan - best contrast
+
+  # Grays - For text, less saturated
+  gray_darkest: "#1a1520"    # Darkest gray with purple tint
+  gray_dark: "#2a2530"       # Dark gray
+  gray_medium: "#4a4550"     # Medium gray
+  gray_light: "#6a6570"      # Light gray
+  gray_lighter: "#9a95a0"    # Lighter gray
+  gray_text: "#ccc0d0"       # Light gray for text (more readable)
+  gray_bright: "#e8e0f0"     # Bright gray
+  gray_teal: "#7a9299"       # Muted gray-teal for docstrings
+  gray_teal_light: "#8aa5aa" # Light gray-teal
+
+  # Teals - For template compatibility
+  teal_darkest: "#0f0a1c"    # Very dark teal
+  teal_darker: "#1a1428"     # Dark teal
+  teal_dark: "#2a2038"       # Dark teal
+  teal_medium: "#3a3048"     # Medium teal
+
+  # Greens - For template compatibility (using cyan/teal variants)
+  green_muted: "#337788"     # Muted teal
+  green_primary: "#55aacc"   # Primary teal
+  green_bright: "#00ddee"    # Bright cyan/teal
+  green_brighter: "#33eeff"  # Brighter cyan
+
+  # Template aliases
+  red: "#ff0000"             # Standard red (alias)
+  magenta: "#ff00dd"         # Standard magenta (alias)
+  orange: "#ff8800"          # Standard orange (alias)
+
+  # Pure colors
+  white: "#ffffff"
+  black: "#000000"
+
+# Semantic color mappings - Using the vibrant colors
+colors:
+  # Editor - Dark background with vivid accents
+  editor_background: "bg_darkest"
+  editor_foreground: "gray_text"
+  editor_line_highlight: "wine_darker"
+  editor_selection: "magenta_dark"
+  editor_cursor: "magenta_brightest"
+  editor_line_number: "wine_light"
+  editor_line_number_active: "magenta_bright"
+
+  # Activity Bar - Magenta accents
+  activity_bar_background: "bg_darkest"
+  activity_bar_foreground: "magenta_bright"
+  activity_bar_border: "wine_darkest"
+
+  # Sidebar
+  sidebar_background: "bg_darker"
+  sidebar_foreground: "gray_text"
+  sidebar_border: "wine_dark"
+
+  # Status Bar - Blue accent
+  statusbar_background: "bg_darker"
+  statusbar_foreground: "blue_bright"
+  statusbar_border: "magenta_dark"
+
+  # Tabs - Magenta for active
+  tab_active_background: "bg_dark"
+  tab_active_foreground: "magenta_brighter"
+  tab_inactive_background: "bg_darkest"
+  tab_inactive_foreground: "wine_light"
+
+  # Title Bar
+  titlebar_background: "bg_darker"
+  titlebar_foreground: "gray_text"
+
+  # Terminal
+  terminal_background: "bg_darkest"
+  terminal_foreground: "gray_text"
+
+  # Buttons - Magenta
+  button_background: "magenta_dark"
+  button_foreground: "white"
+  button_hover: "magenta_medium"
+
+  # Links - Blue
+  link: "blue_brighter"
+  link_active: "blue_brightest"
+
+  # Lists - Magenta selections
+  list_selection: "magenta_darker"
+  list_hover: "wine_medium"
+  list_highlight: "magenta_bright"
+
+# Token/syntax colors - Using the vibrant palette
+tokens:
+  comment:
+    foreground: "gray_teal"
+    fontStyle: "italic"
+
+  docstring:
+    foreground: "gray_teal_light"
+    fontStyle: "italic"
+
+  keyword:
+    foreground: "magenta_bright"
+    fontStyle: "bold"
+
+  storage:
+    foreground: "purple_bright"
+    fontStyle: "bold"
+
+  string:
+    foreground: "cyan_electric"
+
+  string_escape:
+    foreground: "cyan_brightest"
+
+  number:
+    foreground: "orange_bright"
+
+  constant:
+    foreground: "orange_brighter"
+
+  variable:
+    foreground: "gray_bright"
+
+  variable_property:
+    foreground: "gray_text"
+
+  variable_language:
+    foreground: "red_orange_bright"
+    fontStyle: "bold"
+
+  function:
+    foreground: "blue_brighter"
+
+  function_call:
+    foreground: "blue_bright"
+
+  class:
+    foreground: "magenta_brighter"
+    fontStyle: "bold"
+
+  type:
+    foreground: "purple_bright"
+
+  interface:
+    foreground: "purple_brighter"
+
+  enum:
+    foreground: "purple_medium"
+
+  parameter:
+    foreground: "gray_bright"
+    fontStyle: "italic"
+
+  operator:
+    foreground: "red_orange_vivid"
+
+  punctuation:
+    foreground: "gray_lighter"
+
+  punctuation_separator:
+    foreground: "gray_light"
+
+  tag:
+    foreground: "magenta_bright"
+
+  tag_attribute:
+    foreground: "blue_bright"
+
+  attribute:
+    foreground: "blue_bright"
+
+  property:
+    foreground: "gray_text"
+
+  decorator:
+    foreground: "orange_bright"
+
+  annotation:
+    foreground: "yellow_bright"
+
+  namespace:
+    foreground: "purple_medium"
+
+  label:
+    foreground: "yellow_bright"
+
+  regex:
+    foreground: "orange_bright"
+
+  markup_heading:
+    foreground: "magenta_brighter"
+    fontStyle: "bold"
+
+  markup_bold:
+    fontStyle: "bold"
+
+  markup_italic:
+    fontStyle: "italic"
+
+  markup_link:
+    foreground: "blue_brighter"
+
+  markup_code:
+    foreground: "cyan_bright"
+
+  invalid:
+    foreground: "white"
+    background: "red_bright"

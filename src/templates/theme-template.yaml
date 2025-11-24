@@ -201,6 +201,12 @@ token_colors:
       - "storage.modifier"
     token: "storage"
 
+  # Docstrings (Python, etc.) - Must come before regular strings
+  - scope:
+      - "string.quoted.docstring"
+      - "comment.block.documentation.python"
+    token: "docstring"
+
   # Strings
   - scope:
       - "string"

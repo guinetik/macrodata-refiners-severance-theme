@@ -2,7 +2,7 @@
   "name": "macrodata-refiners-severance-theme",
   "displayName": "Macrodata Refiners Severance Theme",
   "description": "Vibe Refining",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icon": "icon.png",
   "publisher": "guinetik",
   "repository": {
@@ -42,6 +42,11 @@
         "label": "Macrodata Refiners - Sweet Vitriol",
         "uiTheme": "vs",
         "path": "./themes/sweet-vitriol.json"
+      },
+      {
+        "label": "Macrodata Refiners - Defiant Jazz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/defiant-jazz.json"
       }
     ]
   }
