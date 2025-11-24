@@ -10,29 +10,29 @@ _"Please enjoy each theme equally."_ - Ms Casey.
 
 Inspired by the MDR department's teal-tinted screens and workstations. This theme captures the clinical, sterile environment of the severed floor where the refiners work.
 
-![Reference](./screenshots/severance_1.jpg)
-![Preview](./screenshots/01-classic.png)
+![Reference](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/severance_1.jpg)
+![Preview](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/01-classic.png)
 
 ### Cold Harbor (dark)
 
 Inspired by Lumon's data visualization screens showing the Cold Harbor project metrics. A dark theme featuring graduated shades of cyan and blue, reminiscent of the analytical charts and progress bars displayed throughout the severed floor.
 
-![Reference](./screenshots/severance_2.png)
-![Preview](./screenshots/02-cold-harbor.png)
+![Reference](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/severance_2.png)
+![Preview](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/02-cold-harbor.png)
 
 ### ORTBO (light)
 
 Based on the cold, wintery outdoor testing grounds where severed employees are tested. A bright, stark theme inspired by snow-covered landscapes and the harsh light of the exterior world beyond Lumon's walls.
 
-![Reference](./screenshots/severance_3.jpg)
-![Preview](./screenshots/03-ortbo.png)
+![Reference](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/severance_3.jpg)
+![Preview](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/03-ortbo.png)
 
 ### Sweet Vitriol (light)
 
 Inspired by Ms. Cobel's cottage, this light theme balances warm cream backgrounds with teal, blue, and wood tones - perfect for those who prefer coding under the influence of ether while pretending to live in a rustic cottage.
 
-![Reference](./screenshots/severance_4.jpg)
-![Preview](./screenshots/04-sweet-vitriol.png)
+![Reference](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/severance_4.jpg)
+![Preview](https://cdn.jsdelivr.net/gh/guinetik/macrodata-refiners-severance-theme@1.0.0/screenshots/04-sweet-vitriol.png)
 
 ## Features
 
